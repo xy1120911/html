@@ -1,0 +1,208 @@
+<!-- 宣告HTML5文件 -->
+<!doctype html>
+<!-- 根元素 -->
+<html lang="zh-Hant-TW">
+  <!-- 檔頭 -->
+  <head>
+    <!-- 中繼標籤 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="蒔義餐館ShiYiRestaurant">
+    <meta name="description" content="蒔義餐館的餐點介紹，有前菜、主食、湯品、甜點">
+    <meta name="generator" content="Visual Studio Code v.1.83.1">
+    <meta name="keywords" content="義式餐館, 前菜, 義大利餃, 義式冰淇淋, 千層麵">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="images/x-icon" href="/favicon.ico">
+    <!-- 網站標題 -->
+    <title>蒔義餐館-餐點介紹</title>
+    <!-- bootsrapCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+  </head>
+  <!-- GA追蹤分析 -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMJ8GL5F4H"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-EMJ8GL5F4H');
+  </script>
+  <!-- 網頁本文 -->
+  <body>
+    <header">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">蒔義餐館</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">關於我們</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="menu.html">餐點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="culture.html">飲食文化及特色</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@trial-153954.url.tw">留言板</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/bread_ok.webp" class="d-block w-100" alt="下午茶餐會">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/ice-cream1280_ok.webp" class="d-block w-100" alt="gelato">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/pizza_1280_ok.webp" class="d-block w-100" alt="pizza">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <h2 class="alert alert-primary mt-5" role="alert">主食</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/menu/lasagna900.webp" class="card-img-top" alt="千層麵" title="千層麵" aria-label="千層麵">
+              <div class="card-body">
+                <h4 class="card-title">千層麵</h4>
+                <p class="card-text">千層麵，又名寬條麵，是一種麵食，特點是用多張寬如手帕的大麵皮疊起來，內層夾上多種成分如起司、義式肉醬（素食版可用菠菜代替）、蔬菜，經焗製調味而成，頂層可覆蓋碎起司。烘製而成，然後切成二三寸見方的小塊分食。</p>
+                <p class="card-text">多會配合莫札瑞拉起司、帕馬森起司或利可他乳水起司，而且有許多食譜會加入白醬作為調味。</p>
+                <p class="text-end"><a href="https://zh.wikipedia.org/zh-tw/%E5%8D%83%E5%B1%A4%E9%BA%B5" class="btn btn-primary" target="_blank" role="button">千層麵</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/menu/tortellini900.webp" class="card-img-top" alt="義大利餃" title="義大利餃" aria-label="義大利餃">
+              <div class="card-body">
+                <h4 class="card-title">義大利餃</h4>
+                <p class="card-text">義大利餃通常都是正方形，像一個扁平的枕頭。也有些會被製成圓形、窄卷條狀或闊圓環狀。麵皮材料與一般義大利麵無異，主要以麵粉、雞蛋和水製成，有時也會加入番茄汁或菠菜汁增添顏色。</p>
+                <p class="card-text">內餡材料一般為火腿、羅勒葉、牛柳和帕馬森起司，有時也會使用雞肉、檸檬皮和蛋黃，內餡的重點是蔬菜的比例必須比其他配料高。通常伴以醬汁或肉丸進食，醬汁可以是牛肉醬、橄欖油、洋蔥、大蒜、迷迭香、紅酒或番茄為底的醬料做成。</p>
+                <p class="text-end"><a href="https://zh.wikipedia.org/zh-tw/%E6%84%8F%E5%A4%A7%E5%88%A9%E9%A4%83" class="btn btn-primary" target="_blank" role="button">義大利餃</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <h2 class="alert alert-info mt-5" role="alert">前菜</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/menu/appetizer900.webp" class="card-img-top" alt="橄欖醬與起司佐法棍麵包" title="橄欖醬與起司佐法棍麵包" aria-label="橄欖醬與起司佐法棍麵包">
+              <div class="card-body">
+                <h4 class="card-title">橄欖醬與起司佐法棍麵包</h4>
+                <p class="card-text">橄欖醬並非只包含黑橄欖，橄欖醬內容物會有橄欖、初榨橄欖油、蒜頭、蔗糖、香草、辣椒粉等，與一整顆橄欖的味道不盡相同，十分健康清爽順口！</p>
+                <p class="card-text"></p>
+                <p class="text-end"><a href="https://tw.sports.yahoo.com/news/%E6%B3%95%E5%9C%8B%E8%B6%85%E5%B8%82-%E5%BF%85%E8%B2%B7%E5%B9%B3%E5%83%B9%E4%BC%B4%E6%89%8B%E7%A6%AE%E6%B8%85%E5%96%AE-%E9%80%81%E5%88%B0%E5%BF%83%E5%9D%8E%E8%A3%A1-070123309.html" class="btn btn-info" target="_blank" role="button">橄欖醬與起司佐法棍麵包</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/menu/meatballs900.webp" class="card-img-top" alt="義大利肉丸" title="義大利肉丸" aria-label="義大利肉丸">
+              <div class="card-body">
+                <h4 class="card-title">義大利肉丸</h4>
+                <p class="card-text">世界各地都有製作肉丸的獨到配方，在義大利稱為「Polpettes」，從火雞肉到魚肉都可以製作，不過最常見的還是牛肉和豬肉的版本。料理時，醬汁通常搭配義大利家家戶戶常備的番茄紅醬 Marinara，佐香氣迷人的羅勒，最後再刨上帕瑪森起司，便能嘗出飽滿渾厚的一種屬於義大利的難忘家鄉味。</p>
+                <p class="card-text"></p>
+                <p class="text-end"><a href="https://urbansavour.com/information/blog?id=252-%E5%8E%9F%E4%BE%86%E8%82%89%E4%B8%B8%E8%B7%9F%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%E5%8E%9F%E6%9C%AC%E4%B8%A6%E9%9D%9E%E6%90%AD%E6%AA%94%EF%BC%8C%E8%80%8C%E6%98%AF%E7%A7%BB%E6%B0%91%E8%A8%98%E6%86%B6%E8%A3%A1%E7%9A%84%E6%80%9D%E9%84%89%E8%88%87%E4%B8%8D%E5%BE%97%E5%B7%B2%E3%80%82" class="btn btn-info" target="_blank" role="button">義大利肉丸</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <h2 class="alert alert-danger mt-5" role="alert">湯品</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/menu/minestrone900.webp" class="card-img-top" alt="義式雜菜湯" title="義式雜菜湯" aria-label="義式雜菜湯">
+              <div class="card-body">
+                <h4 class="card-title">義式雜菜湯</h4>
+                <p class="card-text">Minestrone是義大利一道古老傳統的雜菜湯。遠在古羅馬共和國、羅馬帝國成立前，就已經存在了。最早的做法，只是在鹽水中摻入斯卑爾麵粉(spelt flour)，丟些蔬菜，做成的麵糊蔬菜粥，叫做Pulte。公元前2世紀開始在湯粥麵糊中加肉，直到希臘人用斯卑爾麵粉做成麵包的作法傳進羅馬，才不在湯𥚃加麵粉。Pulte在那個時期成為窮人的主食。</p>
+                <p class="card-text">後來古羅馬人漸漸意識到蔬菜對人體健康的重要，蔬菜就開始成為這道湯的主角。人們開始將一堆剩菜放一起煮成菜尾湯，因此有很多義大利人覺得Minestrone是來自窮人廚房的草根湯。16世紀中，蕃茄和馬鈴薯從美洲傳入義大利，進而變成Minestrone的主要材料。直到17、18世紀才開始有人用新鮮食材製作雜菜湯，慢慢轉變成一個獨立的菜品，而不再是菜尾湯。歷經千年，從Pulte到菜尾湯再變身為家喻戶曉的Minestrone雜蔬湯。</p>
+                <p class="text-end"><a href="https://kykyfunkitchen.pixnet.net/blog/post/157635842" class="btn btn-danger" target="_blank" role="button">義式雜菜湯</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/menu/italian-seafood-soup900.webp" class="card-img-top" alt="Cioppino" title="Cioppino" aria-label="Cioppino">
+              <div class="card-body">
+                <h4 class="card-title">Cioppino</h4>
+                <p class="card-text">義大利移民於1800年代末開發的，他們在梅格斯碼頭附近捕魚，住在舊金山北海灘附近，許多人來自港口城市熱那亞。當漁民空手而歸時，他會提著鍋子走到其他漁民面前，要求他們盡所能地捐點錢。無論鍋裡是什麼，都變成了他的「cioppino」。那些捐款的漁民希望，如果將來空手而歸，也會得到同樣的待遇。隨著義大利餐廳在舊金山的激增，它後來成為主食。</p>
+                <p class="card-text">這個名字來自ciuppin，是意大利利古里亞地區的一種經典湯名稱，味道與cioppino相似，但番茄較少，使用煮熟至散開的地中海海鮮。也與義大利其他地方的海鮮燉菜有著相同的起源，包括來自托斯卡納的cacciucco、來自阿布魯佐的brodetto di pesce等。從葡萄牙到希臘，整個地中海沿岸地區都可以找到類似的菜餚。例如，來自加泰隆尼亞語地區的suquet de peix和來自普羅旺斯的馬賽魚湯。</p>
+                <p class="text-end"><a href="https://en.wikipedia.org/wiki/Cioppino" class="btn btn-danger" target="_blank" role="button">Cioppino</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <h2 class="alert alert-warning mt-5" role="alert">甜點</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/menu/tiramisu900.webp" class="card-img-top" alt="提拉米蘇" title="提拉米蘇" aria-label="提拉米蘇">
+              <div class="card-body">
+                <h4 class="card-title">提拉米蘇</h4>
+                <p class="card-text">提拉米蘇（Tiramisù）是種口感綿密順滑的甜點，相傳在二次世界大戰期間，有個義大利士兵要出門征戰，妻子想為他準備乾糧帶在路上吃，但家中沒什麼東西可以帶，所以妻子就用家中剩的餅乾、雞蛋、糖等原料做成了糕點，也就是我們所知道的提拉米蘇，當士兵吃到這個糕點就能感受到妻子對他的愛。</p>
+                <p class="card-text">而取名為提拉米蘇（Tiramisù）是因為義大利原文中，“Tira”有「提」、「拉」的意思，“Mi”是我的意思，而“Su”是「往上」的意思，也就有「帶我走」的意思。這也正是義大利士兵的妻子所期盼的，希望她的丈夫能將她的心意帶到戰場上，順利打完仗回家。</p>
+                <p class="text-end"><a href="https://blog.icook.tw/posts/40691" class="btn btn-warning" target="_blank" role="button">提拉米蘇</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/menu/gelato-with-coffe900.webp" class="card-img-top" alt="義大利冰淇淋" title="義大利冰淇淋" aria-label="義大利冰淇淋">
+              <div class="card-body">
+                <h4 class="card-title">義大利冰淇淋</h4>
+                <p class="card-text">Gelato(吉拉朵)是源自義大利的甜點；以多種口味、手工製作跟營養價值而聞名。</p>
+                <p class="card-text">與美式冰淇淋之不同處極多，不論是成份、製造過程、口味種類、營養價值跟質感都有差異；義式冰淇淋強調其天然製程，不使用人工香精或甜味劑，牛奶和鮮奶油含量比美式冰淇淋低、水果含量比美式冰淇淋高。</p>
+                <p class="text-end"><a href="https://zh.wikipedia.org/zh-tw/%E5%90%89%E6%8B%89%E6%9C%B5" class="btn btn-warning" target="_blank" role="button">義大利冰淇淋</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <hr>
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#top">回到頁面頂端</a></p>
+        <p>蒔義餐館 &copy; 2023 </p>
+      </footer>
+    </main>
+    <!-- BootstrapJS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

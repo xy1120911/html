@@ -1,0 +1,8 @@
+/* 根元素文字大小 */
+html {font-size: 20px;}
+/* 標題一級文字大小 */
+h1{font-size: 2rem;}
+/* 標題二級文字大小 */
+h2{font-size: 1.5rem;}
+/* 10段落文字大小 */
+p{font-size: 0.8rem;}

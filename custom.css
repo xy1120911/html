@@ -1,0 +1,23 @@
+:root,
+[data-bs-theme=light] {
+    --bs-dark-rgb: 255, 146, 36;
+}
+
+/* 使用GoogleFonts雲端字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+/* 使用GoogleFonts雲端字體 */
+body {font-family: '微軟正黑體', 'Noto Sans TC', sans-serif;}
+
+/* 指定根的文字大小，單位是px */
+html {font-size: 20px;}
+
+/* 選取器是標籤，影響整體 */
+h2 {font-size: 1.5rem;font-weight: 900;color: rgb(39, 102, 229);}
+
+/* 選取器是類別，影響個別，需要手動套用 */
+.h2-custom-pink {font-size: 3rem;font-weight: 900;color: rgb(255, 0, 195);}
+
+/* 拿掉文字超連結下底線 */
+footer a {
+    text-decoration: none;
+}
